@@ -9,9 +9,9 @@
   <script src="./js/flexible_css.debug.js"></script>
   <script src="./js/flexible.debug.js"></script>
   <link rel="stylesheet" href="./lib/normalize.css">
-  <link rel="stylesheet" href="./js/swiper/dist/css/swiper.min.css">
+  <link rel="stylesheet" href="https://nie.res.netease.com/comm/js/nie/ref/css/swiper.3.4.1.css">
   <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
-  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./sy/sy.css">
 </head>
 
 <body>
@@ -44,19 +44,29 @@
       <a href="javascript:void(0);"></a>
     </div>
   </div>
-  <div class="tese">
-    <div class="lun-hz">
-      <div>
-        <ul>
-          <li><img src="./img/轮播1.jpg" alt=""></li>
-          <li><img src="./img/轮播2.jpg" alt=""></li>
-          <li><img src="./img/轮播3.jpg" alt=""></li>
-          <!-- <li><img src="./img/轮播4.jpg" alt=""></li>
-          <li><img src="./img/轮播5.jpg" alt=""></li> -->
-        </ul>
+  <div class="wrap3">
+    <div class=".img-box">
+      <div class="swiper-container" id="img-slide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/轮播1.jpg" alt="特色图片">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/轮播2.jpg" alt="特色图片">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/轮播3.jpg" alt="特色图片">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/轮播4.jpg" alt="特色图片">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/轮播5.jpg" alt="特色图片">
+          </div>
+        </div>
       </div>
-      <img src="./img/左箭头.png" alt="">
-      <img src="./img/右箭头.png" alt="">
+      <div class="prev-btn"></div>
+      <div class="next-btn"></div>
     </div>
   </div>
   <footer>
@@ -100,23 +110,12 @@
     </div>
   </footer>
 </body>
-<script src="./js/swiper/dist/js/swiper.min.js"></script>
-<script>
-  var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    keyboard: {
-      enabled: true,
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  });
-</script>
+<iframe src="https://gad.netease.com/mmad/point?point_id=12063&amp;s=wjfqL8bZDTkyhWpNFcAf8OCiXpA%3D"
+  style="display:none;"></iframe>
+
+<script src="https://nie.res.netease.com/comm/js/zepto(mixNIE).last.js"></script>
+<script src="https://nie.res.netease.com/comm/js/nie/ref/swiper.3.4.1.js"></script>
+
+<script src="https://yys.res.netease.com/m/fab/20191219120103/js/app/index_8dabe5c.js"></script>
 
 </html>

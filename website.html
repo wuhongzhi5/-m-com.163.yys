@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>《阴阳师》手游官网_网易和风匠心巨制，开启唯美奇幻之旅</title>
+  <script src="./js/flexible_css.debug.js"></script>
+  <script src="./js/flexible.debug.js"></script>
+  <link rel="stylesheet" href="./lib/normalize.css">
+  <link rel="stylesheet" href="./js/swiper/dist/css/swiper.min.css">
+  <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/website.css">
+</head>
+
+<body onload="init()">
+  <header>
+    <a href="" class="first">
+      <img src="./img/logo.png" alt="">
+    </a>
+    <div>
+      <h3>阴阳师</h3>
+      <p>网易和风匠心巨制</p>
+    </div>
+    <a href="" class="second sed1">
+      <img src="./img/搜索.png" alt="">
+    </a>
+    <a href="" class="second sed2">
+      <img src="./img/下载-2.jpg" alt="">
+    </a>
+  </header>
+
+  <div class="swiper-container bck">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img id="lunbotu" src="./img/背景1.png" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/背景2.png" alt="">
+      </div>
+    </div>
+
+  </div>
+
+</body onload="init()">
+
+<script src="./js/swiper/dist/js/swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+</script>
+<script>
+  function init() {
+    setInterval("changgeImg()", 5000);
+  }
+  var i = 1
+  function changgeImg() {
+    i++;
+    document.getElementById("lunbotu").src = "./img/背景" + i + ".png";
+    if (i == 2) {
+      i = 0;
+    }
+  }
+</script>
+
+</html>

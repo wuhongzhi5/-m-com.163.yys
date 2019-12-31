@@ -1,0 +1,63 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+header {
+  position: fixed;
+  width: 100%;
+  height: calc(102rem / 75);
+  background-image: url(../img/redbak.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 999;
+  /* border: calc(2rem / 75) solid #5e7989; */
+}
+header .first {
+  float: left;
+  margin-top: calc(12rem / 75);
+  border: calc(4rem / 75) solid #fff;
+  border-radius: calc(18rem / 75);
+  margin-left: calc(36rem / 75);
+  box-sizing: border-box;
+  width: calc(80rem / 75);
+}
+header .first img {
+  width: 100%;
+}
+header div {
+  float: left;
+  margin-top: calc(18rem / 75);
+  margin-left: calc(18rem / 75);
+}
+header h3 {
+  font-size: calc(28rem / 75);
+  color: #fff;
+  font-weight: 700;
+}
+header p {
+  color: #fff;
+  font-size: calc(22rem / 75);
+  margin-top: calc(10rem / 75);
+}
+.second {
+  float: right;
+  line-height: calc(102rem / 75);
+}
+.sed2 img {
+  width: calc(140rem / 75);
+  margin-right: calc(28rem / 75);
+}
+.sed1 img {
+  margin-right: calc(20rem / 75);
+  width: calc(44rem / 75);
+}
+.bck {
+  width: 100%;
+  height: calc(600rem / 75);
+  overflow: hidden;
+}
+.swiper-slide img {
+  width: calc(750rem / 75);
+  height: calc(500rem / 75);
+  margin-top: calc(102rem / 75);
+}
