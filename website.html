@@ -30,7 +30,6 @@
       <img src="./img/下载-2.jpg" alt="">
     </a>
   </header>
-
   <div class="swiper-container bck">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
@@ -40,16 +39,143 @@
         <img src="./img/背景2.png" alt="">
       </div>
     </div>
-
   </div>
-
-</body onload="init()">
+  <div class="xz">
+    <img src="./img/下载游戏2.jpg" alt="">
+  </div>
+  <div class="ip">
+    <div>
+      <img src="./img/IP.png" alt="">
+    </div>
+    <div>
+      <a href=""><img src="./img/1.gif" alt=""></a>
+      <a href=""><img src="./img/2.gif" alt=""></a>
+      <img class="yg" src="./img/妖怪屋.png" alt="">
+      <img class="bw" src="./img/百文牌.png" alt="">
+    </div>
+  </div>
+  <div class="zixun">
+    <div>
+      <img src="./img/新闻资讯.png" alt="">
+    </div>
+    <ul>
+      <li>
+        <i>推荐</i>
+        <a href="">
+          <img src="./img/碗.jpg" alt="">
+        </a>
+        <p>网易严选 - 以严谨的态度，为中国消费者甄选天下优品</p>
+      </li>
+      <li>
+        <span>幽幽冥川映花影 《阴阳师》彼岸花典藏皮肤登场！</span>
+        <p>花海蔓延的冥川畔上，徘徊着等待渡河的亡魂。冥烛的幽光在水中静静地飘荡，女子乘着满载繁花的舟楫，脸上露出了意味深长的微笑。“好久……</p>
+        <img src="./img/index-2右箭头.png" alt="">
+      </li>
+      <li>
+        <span>《阴阳师》手游12月31日维护更新公告</span>
+        <p>
+          亲爱的阴阳师大人：为了给大家带来更好的游戏体验，服务器将于12月31日(周二)早上6:30-9:00进行停服维护，如未能按时完成，则开服时间将会顺延。具体更新详情请留意稍后更新公告，或维护结束后至游戏登录界面查看。
+        </p>
+        <img src="./img/index-2右箭头.png" alt="">
+      </li>
+      <li>
+        <span>我的海国战纪《阴阳师》海国篇回顾测试开启！</span>
+        <p>从海国开篇，到京都决战，这一场汹涌的海潮席卷了整个平安京。如果将这番经历全数记录，阴阳师们的海国战纪，会是什么样的呢？【我的海……</p>
+        <img src="./img/index-2右箭头.png" alt="">
+      </li>
+      <li>
+        <i>推荐</i>
+        <a href="">
+          <img src="./img/海国.png" alt="">
+        </a>
+        <p>我的海国战纪</p>
+      </li>
+      <li>
+        <i>活动</i>
+        <a href="">
+          <img src="./img/热词.jpg" alt="">
+        </a>
+        <p>2019年度热词</p>
+      </li>
+    </ul>
+    <div>
+      <span><img src="./img/更多.png">更多</span>
+      <span>|</span>
+      <span>下一页</span>
+    </div>
+  </div>
+  <div class="shouzhang">
+    <div class="one">
+      <img src="./img/新闻资讯.png" alt="">
+    </div>
+    <div class="swiper-container lb">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide lbt">
+          <img src="./img/lb-1.png" alt="">
+          <p>同人赏</p>
+        </div>
+        <div class="swiper-slide lbt">
+          <img src="./img/lb-2.png" alt="">
+          <p>同人文</p>
+        </div>
+        <div class="swiper-slide lbt">
+          <img src="./img/lb-3.png" alt="">
+          <p>游戏特色</p>
+        </div>
+        <div class="swiper-slide lbt">
+          <img src="./img/lb-4.png" alt="">
+          <p>藏宝阁</p>
+        </div>
+        <div class="swiper-slide lbt">
+          <img src="./img/lb-5.png" alt="">
+          <p>大事记</p>
+        </div>
+        <div class="swiper-slide lbt">
+          <img src="./img/lb-6.png" alt="">
+          <p>悬赏封印</p>
+        </div>
+        <div class="swiper-slide lbt">
+          <img src="./img/lb-7.png" alt="">
+          <p>游戏日历</p>
+        </div>
+        <div class="swiper-slide lbt">
+          <img src="./img/lb-8.png" alt="">
+          <p>微博活动</p>
+        </div>
+        <div class="swiper-slide lbt">
+          <img src="./img/lb-9.png" alt="">
+          <p>微信活动</p>
+        </div>
+        <div class="swiper-slide lbt">
+          <img src="./img/lb-10.png" alt="">
+          <p>论坛活动</p>
+        </div>
+        <div class="swiper-slide lbt">
+          <img src="./img/lb-11.png" alt="">
+          <p>主角录</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 
 <script src="./js/swiper/dist/js/swiper.min.js"></script>
 
 <!-- Initialize Swiper -->
 <script>
-  var swiper = new Swiper('.swiper-container', {
+  var swiper = new Swiper('.lb', {
+    slidesPerView: 4,
+    centeredSlides: true,
+    loop: true,
+    spaceBetween: 20,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+</script>
+<script>
+  var swiper = new Swiper('.bck', {
     slidesPerView: 1,
     loop: true,
     pagination: {
@@ -57,6 +183,14 @@
       clickable: true,
     },
   });
+  var comtainer = document.getElementById('bck');
+  comtainer.onmouseenter = function () {
+    swiper.autoplay.stop();
+  };
+      // 鼠标离开 继续轮播
+    // comtainer.onmouseleave = function () {
+    //     swiper.autoplay.start();
+    // }
 </script>
 <script>
   function init() {

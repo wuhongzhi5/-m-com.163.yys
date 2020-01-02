@@ -114,130 +114,66 @@ header p {
   width: 50%;
   height: calc(390rem / 75);
 }
-.tese {
-  width: 100%;
-  height: calc(900rem / 75);
-  background-image: url(../img/background6.jpg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+.wrap3 {
   overflow: hidden;
+  width: 100%;
+  height: 10.38rem;
+  background: url(https://yys.res.netease.com/m/fab/20191219120103/img/bg3_c276771.jpg) center no-repeat;
+  background-size: 100% 100%
 }
-.lun-hz {
-  position: relative;
-  width: calc(480rem / 75);
-  height: calc(670rem / 75);
-  margin: auto;
-  margin-top: calc(128rem / 75);
-  perspective: calc(1000rem / 75);
+
+.wrap3 .title {
+  height: 1.26rem
 }
-.lun-hz div {
+
+.wrap3 .img-box {
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  position: relative
 }
-.tese ul {
-  width: calc(380rem / 75 * 5);
-  height: 100%;
-  margin-left: calc(-360rem / 75);
+
+.wrap3 #img-slide {
+  width: 5.5rem;
+  height: 7.76rem;
+  margin: 1.3rem auto 0
 }
-.tese ul li {
-  position: relative;
-  float: left;
-  width: calc(380rem / 75);
-  height: 100%;
+
+.wrap3 #img-slide .swiper-slide {
+  width: 4.65rem;
+  height: 7.76rem;
+  overflow: hidden
 }
-.tese ul img {
+
+.wrap3 #img-slide img {
   display: block;
-  border: calc(3rem / 75) solid rgb(203, 192, 142);
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+  border: .03rem solid #cbc08e
 }
-.tese li:nth-child(1) {
-  transform: translateX(calc(315rem / 75)) translateZ(calc(-200rem / 75)) rotateY(21deg);
-  z-index: 0;
-  animation: switch 10s ease infinite;
-}
-@keyframes switch {
-  0%, 15% {
-    transform: translateX(calc(315rem / 75)) translateZ(calc(-200rem / 75)) rotateY(21deg);
-    z-index: 0;
-	}
-	25%, 45% {
-    transform: translateX(calc(500rem / 75)) translateZ(calc(-200rem / 75)) rotateY(-21deg);
-    z-index: 0;
-	}
-	55%, 75% {
-    transform: translateX(calc(410rem / 75)) translateZ(calc(1rem / 75)) rotateY(0deg);
-    z-index: 1;
-  }
-  85%, 100% {
-    transform: translateX(calc(315rem / 75)) translateZ(calc(-200rem / 75)) rotateY(21deg);
-    z-index: 0;
-  }
-}
-.tese li:nth-child(2) {
-  transform: translateX(calc(30rem / 75)) translateZ(calc(1rem / 75));
-  z-index: 1;
-  animation: switch2 10s ease-out infinite;
-} 
-@keyframes switch2 {
-  0%, 15% {
-    transform: translateX(calc(30rem / 75)) translateZ(calc(1rem / 75)) rotateY(0deg);
-    z-index: 1;
-	}
-	25%, 45% {
-    transform: translateX(calc(-60rem / 75)) translateZ(calc(-200rem / 75)) rotateY(21deg);
-    z-index: 0;
-	}
-	55%, 75% {
-    transform: translateX(calc(125rem / 75)) translateZ(calc(-200rem / 75)) rotateY(-21deg);
-    z-index: 0;
-  }
-  85%, 100% {
-    transform: translateX(calc(30rem / 75)) translateZ(calc(1rem / 75)) rotateY(0deg);
-    z-index: 1;
-  }
-}
-.tese li:nth-child(3) {
-  transform: translateX(calc(-255rem / 75)) translateZ(calc(-200rem / 75)) rotateY(-21deg);
-  z-index: 0;
-  animation: switch3 10s ease-out infinite;
-}
-@keyframes switch3 {
-  0%, 15% {
-    transform: translateX(calc(-255rem / 75)) translateZ(calc(-200rem / 75)) rotateY(-21deg);
-    z-index: 0;
-	}
-	25%, 45% {
-    transform: translateX(calc(-350rem / 75)) translateZ(calc(1rem / 75)) rotateY(0deg);
-    z-index: 1;
-	}
-	55%, 75% {
-    transform: translateX(calc(-445rem / 75)) translateZ(calc(-200rem / 75)) rotateY(21deg);
-    z-index: 0;
-  }
-  85%, 100% {
-    transform: translateX(calc(-255rem / 75)) translateZ(calc(-200rem / 75)) rotateY(-21deg);
-    z-index: 0;
-  }
-}
-.lun-hz>img:nth-last-child(2) {
+
+.wrap3 .prev-btn,.wrap3 .next-btn {
   position: absolute;
-  top: 50%;
-  transform: translate(0,-50%);
-  left: calc(-60rem / 75);
-  width: calc(40rem / 75);
-  z-index: 999;
 }
-.lun-hz>img:nth-last-child(1) {
-  position: absolute;
-  top: 50%;
-  transform: translate(0,-50%);
-  right: calc(-60rem / 75);
-  width: calc(40rem / 75);
-  z-index: 999;
+
+.wrap3 .prev-btn {
+  left: .2rem;
+  width: .43rem;
+  height: .77rem;
+  top: calc(2120rem / 75);
+  background: url(../img/左箭头.png) center no-repeat;
+  background-size: 100% 100%
 }
+
+.wrap3 .next-btn {
+  right: .2rem;
+  width: .43rem;
+  top: calc(2120rem / 75);
+  height: .77rem;
+  background: url(../img/右箭头.png) center no-repeat;
+  background-size: 100% 100%
+}
+
 footer {
   width: 100%;
   padding-bottom: calc(25rem / 75);
