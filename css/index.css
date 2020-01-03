@@ -196,17 +196,17 @@ footer {
 .foot-top div span {
   color: #fff;
 }
-.phone {
+.phone2 {
   width: 100%;
   height: calc(100rem / 75);
   border-bottom: calc(1rem / 75) solid rgb(78, 81, 91);
   text-align: center;
 }
-.phone p {
+.phone2 p {
   color: #fff;
   line-height: 1.8;
 }
-.phone img {
+.phone2 img {
   width: calc(22rem / 75);
   vertical-align: text-top;
 }
