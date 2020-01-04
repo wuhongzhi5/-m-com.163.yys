@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<style type="text/css">
+  ul,
+  li {
+    list-style: none;
+    float: left;
+  }
+
+  ul {
+    width: 600px;
+    height: 35px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-con {
+    display: none;
+  }
+
+  .nav-box {
+    display: none;
+  }
+
+  .nav-con:checked~.nav-box {
+    display: block;
+  }
+
+  .nav-btn {
+    position: relative;
+    padding: 14px 15px;
+    background: red;
+    margin-left: 500px;
+  }
+
+  .nav-btn2 {
+    position: relative;
+    bottom: 18px;
+    padding: 5px 15px;
+    background: blue;
+    margin-left: 500px;
+  }
+
+  .qwe {
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    top: 0;
+    left: 0;
+    background-color: yellow;
+  }
+
+  .w {
+    width: 500px;
+    height: 300px;
+    position: relative;
+  }
+
+  .ss {
+    width: 600px;
+    height: 35px;
+    background-color: orange;
+  }
+
+  .rrr {
+    margin-left: 100px;
+    width: 300px;
+    height: 25px;
+    height: auto;
+  }
+</style>
+
+<body>
+  <div class="w">
+    <div class="ss">
+      <label for="control" class="nav-btn">菜单</label>
+    </div>
+    <input type="checkbox" name="" id="control" class="nav-con">
+    <ul class="nav-box">
+      <li>
+        <input type="text" class="rrr">
+        <label for="control" class="nav-btn2">取消</label>
+      </li>
+    </ul>
+  </div class="w">
+</body>
+
+</html>

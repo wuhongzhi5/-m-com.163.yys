@@ -1,0 +1,72 @@
+footer {
+  position: fixed;
+  width: 100%;
+  height: calc(80rem / 75);
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+footer div {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+footer div span {
+  line-height: calc(80rem / 75);
+  font-size: calc(30rem / 75);
+}
+.main {
+  margin-top: calc(80rem / 75);
+  width: 100%;
+  height: calc(968rem / 75);
+}
+.main .bd {
+  width: 100%;
+  padding: calc(40rem / 75);
+  box-sizing: border-box;
+}
+.main .bck {
+  width: 100%;
+  height: calc(400rem / 75);
+}
+.main .bck img {
+  width: 100%;
+  height: 100%;
+}
+.bd h1 {
+  color: #d60000;
+  font-weight: 700;
+}
+.bd p {
+  font-size: calc(30rem / 75);
+  line-height: 1.2;
+}
+.bd .zt {
+  width: calc(608rem / 75);
+  height: calc(72rem / 75);
+  margin-top: calc(70rem / 75);
+}
+.bd .zt img {
+  float: left;
+  width: calc(60rem / 75);
+}
+.bd .zt p {
+  font-size: calc(30rem / 75);
+  margin-left: calc(78rem /75);
+}
+.phone { 
+  width: 100%;
+  height: calc(120rem / 75);
+  background-color: #f8f8f8;
+  margin-top: calc(70rem / 75);
+}
+.phone img {
+  float: left;
+  width: calc(32rem / 75);
+  margin-top: calc(32rem / 75);
+  margin-left: calc(24rem / 75);
+}
+.phone p {
+  font-size: calc(30rem / 75);
+  margin-left: calc(78rem /75);
+}
