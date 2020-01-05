@@ -1197,7 +1197,7 @@ footer {
 .but p:first-child {
   margin-top: calc(25rem / 75);
 }
-.but a {
+.but .fhtop {
   position: absolute;
   display: block;
   right: calc(25rem / 75);
@@ -1210,4 +1210,7 @@ footer {
 }
 .but a img {
   width: 100%;
+}
+.seed {
+  color: #696969;
 }

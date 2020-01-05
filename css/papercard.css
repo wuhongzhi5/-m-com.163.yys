@@ -1,0 +1,154 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+header {
+  position: fixed;
+  width: 100%;
+  height: calc(102rem / 75);
+  background-image: url(../papercard-img/bck.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 999;
+  box-shadow: 0.03rem 0 0.08rem rgba(0,0,0,.5);
+  /* border: calc(2rem / 75) solid #5e7989; */
+}
+header .first {
+  float: left;
+  margin-top: calc(12rem / 75);
+  border-radius: calc(18rem / 75);
+  margin-left: calc(36rem / 75);
+  box-sizing: border-box;
+  width: calc(80rem / 75);
+}
+header .first img {
+  width: 100%;
+}
+header div {
+  float: left;
+  margin-top: calc(18rem / 75);
+  margin-left: calc(18rem / 75);
+}
+header h3 {
+  font-size: calc(28rem / 75);
+  color: #fff;
+  font-weight: 700;
+}
+header p {
+  color: #fff;
+  font-size: calc(22rem / 75);
+  margin-top: calc(6rem / 75);
+}
+.second {
+  float: right;
+  line-height: calc(102rem / 75);
+}
+.second img {
+  width: calc(92rem / 75);
+}
+.sed1 img {
+  margin-right: calc(28rem / 75);
+}
+.sed2 img {
+  margin-right: calc(20rem / 75);
+}
+.xiazai {
+  position: relative;
+  width: 100%;
+  height: calc(1080rem / 75);
+  background-image: url(../papercard-img/下载bck.jpg);
+  background-size: 100% 100%;
+}
+.gongce {
+  position: absolute;
+  top: calc(132rem / 75);
+  left: calc(60rem / 75);
+  width: calc(210rem / 75);
+  height: calc(500rem / 75);
+}
+.gongce img {
+  width: 100%;
+  height: 100%;
+}
+.xzgame {
+  position: absolute;
+  top: calc(656rem / 75);
+  left: calc(60rem / 75);
+  width: calc(260rem / 75);
+  height: calc(72rem / 75);
+}
+.xzgame img {
+  width: 100%;
+  height: 100%;
+}
+.paper {
+  position: absolute;
+  top: calc(124rem / 75);
+  left: calc(375rem / 75);
+  width: calc(90rem / 75);
+  height: calc(216rem / 75);
+}
+.paper img {
+  width: 100%;
+  height: 100%;
+}
+.bofang {
+  position: absolute;
+  width: calc(100rem / 75);
+  height: calc(100rem / 75);
+  border-radius: 50%;
+  top: calc(740rem / 75);
+  left: calc(230rem / 75);
+}
+.bofang img {
+  width: 100%;
+  height: 100%;
+}
+.newka {
+  position: absolute;
+  width: calc(146rem / 75);
+  height: calc(36rem / 75);
+  top: calc(988rem / 75);
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.newka img {
+  width: 100%;
+  height: 100%;
+}
+.jijie {
+  width: 100%;
+  height: calc(978rem / 75);
+  background-image: url(../papercard-img/bck2.png);
+  background-size: 100% 100%;
+  border: none;
+}
+.tedian {
+  position: relative;
+  top: calc(-80rem / 75);
+  margin: auto;
+  width: calc(550rem / 75);
+  height: calc(235rem / 75);
+}
+.tedian img {
+  width: 100%;
+  height: 100%;
+}
+.jijie ul {
+  position: relative;
+  top: calc(-40rem / 75);
+  width: 100%;
+  text-align: center;
+  height: calc(976rem / 75);
+}
+.jijie ul li {
+  display: inline-block;
+  width: calc(192rem / 75);
+  height: calc(325rem / 75);
+  margin: calc(28rem / 75) calc(14rem / 75);
+}
+.jijie li img {
+  width: 100%;
+  height: 100%;
+}

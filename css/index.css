@@ -196,17 +196,17 @@ footer {
 .foot-top div span {
   color: #fff;
 }
-.phone2 {
+.phone {
   width: 100%;
   height: calc(100rem / 75);
   border-bottom: calc(1rem / 75) solid rgb(78, 81, 91);
   text-align: center;
 }
-.phone2 p {
+.phone p {
   color: #fff;
   line-height: 1.8;
 }
-.phone2 img {
+.phone img {
   width: calc(22rem / 75);
   vertical-align: text-top;
 }
@@ -222,7 +222,7 @@ footer {
 .but p:first-child {
   margin-top: calc(25rem / 75);
 }
-.but a {
+.but .fhtop {
   position: absolute;
   display: block;
   right: calc(25rem / 75);
@@ -237,4 +237,6 @@ footer {
   width: 100%;
 }
 
-
+.seed {
+  color: #fff;
+}
