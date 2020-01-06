@@ -1,0 +1,155 @@
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(102rem / 75);
+  background-image: url(../papercard-img/back1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 999;
+  /* border: calc(2rem / 75) solid #5e7989; */
+}
+header .first {
+  float: left;
+  margin-top: calc(12rem / 75);
+  border: calc(2rem / 75) solid #fff;
+  border-radius: calc(18rem / 75);
+  margin-left: calc(36rem / 75);
+  box-sizing: border-box;
+  width: calc(80rem / 75);
+}
+header .first img {
+  width: 100%;
+}
+header div {
+  float: left;
+  margin-top: calc(18rem / 75);
+  margin-left: calc(18rem / 75);
+}
+header h3 {
+  font-size: calc(28rem / 75);
+  color: #fff;
+  font-weight: 700;
+}
+header p {
+  color: #fff;
+  font-size: calc(22rem / 75);
+  margin-top: calc(6rem / 75);
+}
+.second {
+  float: right;
+  line-height: calc(102rem / 75);
+}
+.second img {
+  width: calc(92rem / 75);
+}
+.sed1 img {
+  margin-right: calc(28rem / 75);
+}
+.sed2 img {
+  margin-right: calc(20rem / 75);
+}
+.neirong {
+  position: relative;
+  width: 100%;
+  height: calc(1218rem / 75);
+  background-image: url(../papercard-img/式神扑克牌.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.ewm {
+  position: absolute;
+  top: calc(840rem / 75);
+  left: calc(120rem / 75);
+  width: calc(330rem / 75);
+  height: calc(300rem / 75);
+  z-index: 1;
+}
+.ewm img {
+  width: 100%;
+  height: 100%;
+}
+.ma {
+  position: absolute;
+  top: calc(888rem / 75);
+  left: calc(175rem / 75);
+  width: calc(168rem / 75);
+  height: calc(168rem / 75);
+  z-index: 999;
+}
+.ma img {
+  width: 100%;
+  height: 100%;
+}
+footer {
+  width: 100%;
+  padding-bottom: calc(25rem / 75);
+  background-color: rgb(35, 36, 34);
+}
+.foot-top {
+  width: 100%;
+  height: calc(140rem / 75);
+}
+.foot-top div {
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  width: 33.333%;
+  line-height: calc(140rem / 75);
+}
+.foot-top div img {
+  width: calc(56rem / 75);
+}
+.foot-top div span {
+  color: #fff;
+}
+.phone {
+  width: 100%;
+  height: calc(100rem / 75);
+  border-bottom: calc(1rem / 75) solid rgb(78, 81, 91);
+  text-align: center;
+}
+.phone p {
+  color: #fff;
+  line-height: 1.8;
+}
+.phone img {
+  width: calc(22rem / 75);
+  vertical-align: text-top;
+}
+.but {
+  position: relative;
+  width: 100%;
+}
+.but p {
+  margin-left: calc(25rem / 75);
+  color: #fff;
+  line-height: 1.5;
+}
+.but p:first-child {
+  margin-top: calc(25rem / 75);
+}
+.but .fhtop {
+  position: absolute;
+  display: block;
+  right: calc(25rem / 75);
+  bottom: 0;
+  width: calc(80rem / 75);
+  height: calc(80rem / 75);
+}
+.but i {
+  margin-left: calc(25rem / 75);
+}
+.but a img {
+  width: 100%;
+}
+
+.seed {
+  color: #fff;
+}
