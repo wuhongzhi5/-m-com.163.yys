@@ -1214,3 +1214,61 @@ footer {
 .seed {
   color: #696969;
 }
+
+
+ /*模态框*/
+ .modal {
+  display: none;
+  /* 默认隐藏 */
+  position: fixed;
+  /* 根据浏览器定位 */
+  z-index: 1;
+  /* 放在顶部 */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* 全宽 */
+  height: 100%;
+  /* 全高 */
+  overflow: auto;
+  /* 允许滚动 */
+  background-color: rgba(0, 0, 0, 0.75);
+  /* 背景色 */
+  animation: bck 0.3s;
+}
+
+/*模态框内容*/
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 85% auto;
+  padding: 20px;
+  width: 80%;
+}
+
+@keyframes bck {
+  from {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  to {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+}
+.att_Box {
+  width: calc(350rem / 75);
+  text-align: center;
+  position: fixed;
+  top: calc(320rem / 75);
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.att_Box img {
+  width: 100%;
+}
+.att_Box p {
+  font-size: calc(28rem / 75);
+  color: #fff;
+  line-height: 1.5;
+}
