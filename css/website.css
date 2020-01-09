@@ -423,7 +423,7 @@ header p {
   height: calc(28rem / 75);
   background: none;
   background-size: 100% 100%;
-  background-image: url(../img/勾玉.png);
+  background-image: url(../img/gouyu.png);
 }
 
 .gouYu .swiper-pagination-bullet-active {
@@ -432,7 +432,7 @@ header p {
   height: calc(28rem / 75);
   background: none;
   background-size: 100% 100%;
-  background-image: url(../img/勾玉2.png);
+  background-image: url(../img/gouyu2.png);
 }
 .gouYu span {
   margin: 0 calc(5rem / 75);
@@ -487,7 +487,7 @@ header p {
 .gonglue .swiper-pagination-bullet {
   background: none;
   border-radius: 0;
-  background-image: url(../img/下滑.png);
+  background-image: url(../img/xiahua.png);
   background-repeat: no-repeat;
   background-position: 45% calc(50rem / 75);
   background-size: 70%;
@@ -505,7 +505,7 @@ header p {
   margin-top: calc(104rem / 75);
   padding: 0 calc(20rem / 75);
   box-sizing: border-box;
-  background-image: url(../img/攻略背景.jpg);
+  background-image: url(../img/glbck.jpg);
   background-size: 100% 100%;
 }
 .gonglue span {
@@ -615,7 +615,7 @@ header p {
   height: calc(28rem / 75);
   background: none;
   background-size: 100% 100%;
-  background-image: url(../img/勾玉3.png);
+  background-image: url(../img/gouyu3.png);
 }
 
 .gy .swiper-pagination-bullet-active {
@@ -624,7 +624,7 @@ header p {
   height: calc(28rem / 75);
   background: none;
   background-size: 100% 100%;
-  background-image: url(../img/勾玉2.png);
+  background-image: url(../img/gouyu2.png);
 }
 .hotbck {
   width: 100%;
@@ -722,7 +722,7 @@ header p {
   height: calc(44rem / 75);
   box-sizing: border-box;
   border: calc(4rem / 75) solid #98d1dd;
-  background-image: url(../img/右滑动.png);
+  background-image: url(../img/youhuadong.png);
   background-size: 80% 40%;
   top: calc(640rem / 75);
   right: calc(180rem / 75);
@@ -732,7 +732,7 @@ header p {
   height: calc(44rem / 75);
   box-sizing: border-box;
   border: calc(4rem / 75) solid #98d1dd;
-  background-image: url(../img/左滑动.png);
+  background-image: url(../img/zuohuadong.png);
   background-size: 80% 40%;
   top: calc(640rem / 75);
   left: calc(180rem / 75);
@@ -812,7 +812,7 @@ header p {
   width: calc(120rem / 75);
   height: calc(112rem / 75);
   border-radius: 50%;
-  background-image: url(../img/框框.png);
+  background-image: url(../img/yuankuang.png);
   background-size: 100% 100%;
   overflow: hidden;
 }
@@ -828,7 +828,7 @@ header p {
   height: calc(44rem / 75);
   box-sizing: border-box;
   border: calc(4rem / 75) solid #98d1dd;
-  background-image: url(../img/右滑动.png);
+  background-image: url(../img/youhuadong.png);
   background-size: 80% 40%;
   top: calc(420rem / 75);
   right: calc(150rem / 75);
@@ -838,7 +838,7 @@ header p {
   height: calc(44rem / 75);
   box-sizing: border-box;
   border: calc(4rem / 75) solid #98d1dd;
-  background-image: url(../img/左滑动.png);
+  background-image: url(../img/zuohuadong.png);
   background-size: 80% 40%;
   top: calc(420rem / 75);
   left: calc(155rem / 75);
@@ -891,7 +891,7 @@ header p {
   height: calc(44rem / 75);
   box-sizing: border-box;
   border: calc(4rem / 75) solid #c2a060;
-  background-image: url(../img/右滑动2.png);
+  background-image: url(../img/youhuadong2.png);
   background-size: 80% 40%;
   top: calc(660rem / 75);
   right: calc(150rem / 75);
@@ -901,7 +901,7 @@ header p {
   height: calc(44rem / 75);
   box-sizing: border-box;
   border: calc(4rem / 75) solid #c2a060;
-  background-image: url(../img/左滑动2.png);
+  background-image: url(../img/zuohuadong2.png);
   background-size: 80% 40%;
   top: calc(660rem / 75);
   left: calc(155rem / 75);
@@ -1089,7 +1089,7 @@ header p {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  background-image: url(../img/播放.png);
+  background-image: url(../img/bofang.png);
   background-size: 100% 100%;
 }
 .yys {

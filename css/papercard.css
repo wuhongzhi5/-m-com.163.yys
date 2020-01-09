@@ -57,7 +57,7 @@ header p {
   position: relative;
   width: 100%;
   height: calc(1080rem / 75);
-  background-image: url(../papercard-img/下载bck.jpg);
+  background-image: url(../papercard-img/bwpxiazaibck.jpg);
   background-size: 100% 100%;
 }
 .gongce {
@@ -232,7 +232,7 @@ header p {
   position: relative;
   width: 100%;
   height: calc(695rem / 75);
-  background-image: url(../papercard-img/背景.png);
+  background-image: url(../papercard-img/bwpbeijing.png);
   background-size: 100% 130%;
 }
 .photo {
@@ -332,7 +332,7 @@ z-index: 999;
   width: calc(28rem / 75);
   height: calc(28rem / 75);
   background: none;
-  background-image: url(../papercard-img/花.png);
+  background-image: url(../papercard-img/fllow.png);
   background-size: 100% 100%;
   margin-left: calc(40rem / 75);
   background-repeat: no-repeat;
@@ -340,7 +340,7 @@ z-index: 999;
 }
 
 .hua .swiper-pagination-bullet-active {
-  background-image: url(../papercard-img/花2.png);
+  background-image: url(../papercard-img/fllow2.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center center;

@@ -161,7 +161,7 @@ header p {
   width: .43rem;
   height: .77rem;
   top: calc(2120rem / 75);
-  background: url(../img/左箭头.png) center no-repeat;
+  background: url(../img/leftjiantou.png) center no-repeat;
   background-size: 100% 100%
 }
 
@@ -170,7 +170,7 @@ header p {
   width: .43rem;
   top: calc(2120rem / 75);
   height: .77rem;
-  background: url(../img/右箭头.png) center no-repeat;
+  background: url(../img/rightjiantou.png) center no-repeat;
   background-size: 100% 100%
 }
 
