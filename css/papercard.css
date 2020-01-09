@@ -7,7 +7,7 @@ header {
   position: fixed;
   width: 100%;
   height: calc(102rem / 75);
-  background-image: url(../papercard-img/bck.png);
+  background-image: url(../img/bck.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   z-index: 999;
@@ -57,7 +57,7 @@ header p {
   position: relative;
   width: 100%;
   height: calc(1080rem / 75);
-  background-image: url(../papercard-img/bwpxiazaibck.jpg);
+  background-image: url(../img/bwpxiazaibck.jpg);
   background-size: 100% 100%;
 }
 .gongce {
@@ -121,7 +121,7 @@ header p {
 .jijie {
   width: 100%;
   height: calc(978rem / 75);
-  background-image: url(../papercard-img/bck2.png);
+  background-image: url(../img/bck2.png);
   background-size: 100% 100%;
   border: none;
 }
@@ -156,7 +156,7 @@ header p {
 .zixun {
   width: 100%;
   height: calc(765rem / 75);
-  background-image: url(../papercard-img/bck3.png);
+  background-image: url(../img/bck3.png);
 }
 .newzixun {
   margin: auto;
@@ -217,7 +217,7 @@ header p {
 .zhanshi {
   width: 100%;
   height: calc(1135rem / 75);
-  background-image: url(../papercard-img/bck4.jpg);
+  background-image: url(../img/bck4.jpg);
   background-size: 100% 100%;
 }
 .ssr {
@@ -232,7 +232,7 @@ header p {
   position: relative;
   width: 100%;
   height: calc(695rem / 75);
-  background-image: url(../papercard-img/bwpbeijing.png);
+  background-image: url(../img/bwpbeijing.png);
   background-size: 100% 130%;
 }
 .photo {
@@ -290,7 +290,7 @@ header p {
 .tese {
   width: 100%;
   height: calc(1432rem / 75);
-  background-image: url(../papercard-img/bck5.png);
+  background-image: url(../img/bck5.png);
   background-size: 100% 100%;
 }
 .game {
@@ -332,7 +332,7 @@ z-index: 999;
   width: calc(28rem / 75);
   height: calc(28rem / 75);
   background: none;
-  background-image: url(../papercard-img/fllow.png);
+  background-image: url(../img/fllow.png);
   background-size: 100% 100%;
   margin-left: calc(40rem / 75);
   background-repeat: no-repeat;
@@ -340,7 +340,7 @@ z-index: 999;
 }
 
 .hua .swiper-pagination-bullet-active {
-  background-image: url(../papercard-img/fllow2.png);
+  background-image: url(../img/fllow2.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center center;

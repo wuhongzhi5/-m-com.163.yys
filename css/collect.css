@@ -9,7 +9,7 @@ header {
   left: 0;
   width: 100%;
   height: calc(102rem / 75);
-  background-image: url(../papercard-img/back1.png);
+  background-image: url(../img/back1.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   z-index: 999;
@@ -59,7 +59,7 @@ header p {
   position: relative;
   width: 100%;
   height: calc(1218rem / 75);
-  background-image: url(../papercard-img/shishenpukepai.jpg);
+  background-image: url(../img/shishenpukepai.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
