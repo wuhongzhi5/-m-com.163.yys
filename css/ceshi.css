@@ -1,0 +1,302 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+header {
+  position: fixed;
+  width: 100%;
+  height: calc(102rem / 75);
+  background-image: url(../img/background1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 999;
+  /* border: calc(2rem / 75) solid #5e7989; */
+}
+header .first {
+  float: left;
+  margin-top: calc(12rem / 75);
+  border: calc(2rem / 75) solid #fff;
+  border-radius: calc(18rem / 75);
+  margin-left: calc(36rem / 75);
+  box-sizing: border-box;
+  width: calc(80rem / 75);
+}
+header .first img {
+  width: 100%;
+}
+header div {
+  float: left;
+  margin-top: calc(18rem / 75);
+  margin-left: calc(18rem / 75);
+}
+header h3 {
+  font-size: calc(28rem / 75);
+  color: #fff;
+  font-weight: 700;
+}
+header p {
+  color: #fff;
+  font-size: calc(22rem / 75);
+  margin-top: calc(6rem / 75);
+}
+.second {
+  float: right;
+  line-height: calc(102rem / 75);
+}
+.second img {
+  width: calc(92rem / 75);
+}
+.sed1 img {
+  margin-right: calc(28rem / 75);
+}
+.sed2 img {
+  margin-right: calc(20rem / 75);
+}
+.xiazai {
+  position: relative;
+  width: 100%;
+  height: calc(800rem / 75);
+}
+.xiazai img:nth-child(1) {
+  width: 100%;
+  height: 100%;
+}
+.xiazai img:nth-child(2) {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(52rem / 75);
+  margin: auto;
+  width: calc(222rem / 75);
+}
+.xiazai img:nth-child(3) {
+  position: absolute;
+  top: calc(134rem / 75);
+  left: calc(20rem / 75);
+  height: calc(192rem / 75);
+}
+.xiazai img:nth-child(4) {
+  position: absolute;
+  width: calc(24rem / 75);
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: calc(32rem / 75);
+  animation: yidong 3s infinite ease;
+}
+@keyframes yidong {
+  0% {
+    bottom: calc(32rem / 75);
+  }
+  50% {
+    bottom: calc(22rem / 75);
+  }
+  100% {
+    bottom: calc(32rem / 75);
+  }
+}
+.new {
+  width: 100%;
+  height: calc(970rem / 75);
+  background-image: url(../img/background3.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.new div {
+  width: 100%;
+  height: calc(780rem / 75);
+  margin-top: calc(122rem / 75);
+}
+.new div a {
+  float: left;
+  display: block;
+  width: 50%;
+  height: calc(390rem / 75);
+}
+.tese {
+  width: 100%;
+  height: calc(900rem / 75);
+  background-image: url(../img/background6.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.lun-hz {
+  position: relative;
+  width: calc(480rem / 75);
+  height: calc(670rem / 75);
+  margin: auto;
+  margin-top: calc(128rem / 75);
+  perspective: calc(1000rem / 75);
+}
+.lun-hz div {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.tese ul {
+  width: calc(380rem / 75 * 5);
+  height: 100%;
+  margin-left: calc(-360rem / 75);
+}
+.tese ul li {
+  position: relative;
+  float: left;
+  width: calc(380rem / 75);
+  height: 100%;
+}
+.tese ul img {
+  display: block;
+  border: calc(3rem / 75) solid rgb(203, 192, 142);
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.tese li:nth-child(1) {
+  transform: translateX(calc(315rem / 75)) translateZ(calc(-200rem / 75)) rotateY(21deg);
+  z-index: 0;
+  animation: switch 10s ease infinite;
+}
+@keyframes switch {
+  0%, 15% {
+    transform: translateX(calc(315rem / 75)) translateZ(calc(-200rem / 75)) rotateY(21deg);
+    z-index: 0;
+	}
+	25%, 45% {
+    transform: translateX(calc(500rem / 75)) translateZ(calc(-200rem / 75)) rotateY(-21deg);
+    z-index: 0;
+	}
+	55%, 75% {
+    transform: translateX(calc(410rem / 75)) translateZ(calc(1rem / 75)) rotateY(0deg);
+    z-index: 1;
+  }
+  85%, 100% {
+    transform: translateX(calc(315rem / 75)) translateZ(calc(-200rem / 75)) rotateY(21deg);
+    z-index: 0;
+  }
+}
+.tese li:nth-child(2) {
+  transform: translateX(calc(30rem / 75)) translateZ(calc(1rem / 75));
+  z-index: 1;
+  animation: switch2 10s ease-out infinite;
+} 
+@keyframes switch2 {
+  0%, 15% {
+    transform: translateX(calc(30rem / 75)) translateZ(calc(1rem / 75)) rotateY(0deg);
+    z-index: 1;
+	}
+	25%, 45% {
+    transform: translateX(calc(-60rem / 75)) translateZ(calc(-200rem / 75)) rotateY(21deg);
+    z-index: 0;
+	}
+	55%, 75% {
+    transform: translateX(calc(125rem / 75)) translateZ(calc(-200rem / 75)) rotateY(-21deg);
+    z-index: 0;
+  }
+  85%, 100% {
+    transform: translateX(calc(30rem / 75)) translateZ(calc(1rem / 75)) rotateY(0deg);
+    z-index: 1;
+  }
+}
+.tese li:nth-child(3) {
+  transform: translateX(calc(-255rem / 75)) translateZ(calc(-200rem / 75)) rotateY(-21deg);
+  z-index: 0;
+  animation: switch3 10s ease-out infinite;
+}
+@keyframes switch3 {
+  0%, 15% {
+    transform: translateX(calc(-255rem / 75)) translateZ(calc(-200rem / 75)) rotateY(-21deg);
+    z-index: 0;
+	}
+	25%, 45% {
+    transform: translateX(calc(-350rem / 75)) translateZ(calc(1rem / 75)) rotateY(0deg);
+    z-index: 1;
+	}
+	55%, 75% {
+    transform: translateX(calc(-445rem / 75)) translateZ(calc(-200rem / 75)) rotateY(21deg);
+    z-index: 0;
+  }
+  85%, 100% {
+    transform: translateX(calc(-255rem / 75)) translateZ(calc(-200rem / 75)) rotateY(-21deg);
+    z-index: 0;
+  }
+}
+.lun-hz>img:nth-last-child(2) {
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
+  left: calc(-60rem / 75);
+  width: calc(40rem / 75);
+  z-index: 999;
+}
+.lun-hz>img:nth-last-child(1) {
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
+  right: calc(-60rem / 75);
+  width: calc(40rem / 75);
+  z-index: 999;
+}
+footer {
+  width: 100%;
+  padding-bottom: calc(25rem / 75);
+  background-color: #2c303c;
+}
+.foot-top {
+  width: 100%;
+  height: calc(140rem / 75);
+}
+.foot-top div {
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  width: 33.333%;
+  line-height: calc(140rem / 75);
+}
+.foot-top div img {
+  width: calc(56rem / 75);
+}
+.foot-top div span {
+  color: #fff;
+}
+.phone {
+  width: 100%;
+  height: calc(100rem / 75);
+  border-bottom: calc(1rem / 75) solid rgb(78, 81, 91);
+  text-align: center;
+}
+.phone p {
+  color: #fff;
+  line-height: 1.8;
+}
+.phone img {
+  width: calc(22rem / 75);
+  vertical-align: text-top;
+}
+.but {
+  position: relative;
+  width: 100%;
+}
+.but p {
+  margin-left: calc(25rem / 75);
+  color: #fff;
+  line-height: 1.5;
+}
+.but p:first-child {
+  margin-top: calc(25rem / 75);
+}
+.but a {
+  position: absolute;
+  display: block;
+  right: calc(25rem / 75);
+  bottom: 0;
+  width: calc(80rem / 75);
+  height: calc(80rem / 75);
+}
+.but i {
+  margin-left: calc(25rem / 75);
+}
+.but a img {
+  width: 100%;
+}
